@@ -2,30 +2,30 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: calc(100vh - 80px);
-  background-color: #f5f5f5;
-  padding: 2rem;
+  min-height: calc(100vh - 88px);
+  background-color: #eef3f7;
+  padding: 2rem 1rem;
 }
 
 .auth-container {
   background-color: white;
   padding: 2rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 22px;
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.08);
   width: 100%;
-  max-width: 400px;
+  max-width: 420px;
 }
 
 .auth-container h1 {
   text-align: center;
   margin-bottom: 2rem;
-  color: #333;
+  color: #1f2937;
 }
 
 .auth-form {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.15rem;
 }
 
 .form-group {
@@ -35,54 +35,55 @@
 }
 
 .form-group label {
-  font-weight: bold;
-  color: #333;
+  font-weight: 700;
+  color: #1f2937;
 }
 
 .form-group input {
-  padding: 0.7rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  padding: 0.95rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 14px;
   font-size: 1rem;
+  background-color: #f9fafb;
 }
 
 .form-group input:focus {
   outline: none;
   border-color: #4caf50;
-  box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+  box-shadow: 0 0 0 3px rgba(74, 222, 128, 0.18);
 }
 
 .auth-btn {
-  padding: 0.8rem;
-  background-color: #4caf50;
+  padding: 0.95rem;
+  background-color: #16a34a;
   color: white;
   border: none;
-  border-radius: 4px;
+  border-radius: 999px;
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 700;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.25s ease;
 }
 
 .auth-btn:hover:not(:disabled) {
-  background-color: #45a049;
+  background-color: #15803d;
 }
 
 .auth-btn:disabled {
-  background-color: #ccc;
+  background-color: #cbd5e1;
   cursor: not-allowed;
 }
 
 .auth-link {
   text-align: center;
   margin-top: 1rem;
-  color: #666;
+  color: #4b5563;
 }
 
 .auth-link a {
-  color: #4caf50;
+  color: #16a34a;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .auth-link a:hover {
@@ -90,23 +91,22 @@
 }
 
 .demo-credentials {
-  margin-top: 2rem;
-  padding-top: 1rem;
-  border-top: 1px solid #ddd;
-  background-color: #f9f9f9;
+  margin-top: 1.75rem;
   padding: 1rem;
-  border-radius: 4px;
+  border-radius: 16px;
+  background-color: #f8fafc;
+  border: 1px solid #e5e7eb;
 }
 
 .demo-credentials h3 {
   margin: 0 0 0.5rem 0;
-  color: #333;
-  font-size: 0.9rem;
+  color: #1f2937;
+  font-size: 0.95rem;
 }
 
 .demo-credentials p {
   margin: 0.25rem 0;
-  font-size: 0.85rem;
-  color: #666;
+  font-size: 0.9rem;
+  color: #4b5563;
   font-family: monospace;
 }
